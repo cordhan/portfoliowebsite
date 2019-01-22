@@ -1,0 +1,89 @@
+body {
+  background-color: #40484c;
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: lightgrey
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+font-family: 'Ubuntu', sans-serif;
+font-size: 22px;
+color: #ffa11e;
+}
+
+h3 {
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+}
+
+h4 {
+font-family: 'Ubuntu', sans-serif;
+font-size:  14px;
+}
+
+ul {
+font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+font-weight: 700;
+}
+
+span {
+ color: #ffa11e;
+}
+
+a {
+  color: grey;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  font-weight: 700;
+  color: white;
+}
+
+.contact-button {
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+
+  background-color: #ffa11e;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: solid black;
+
+  transition: 0.2s opacity;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/*
+Colors used
+
+white
+lightgrey
+mid blue #3fa9db
+mid grey  #40484c
+black
+gold #ffa11e
+
+
+*/
