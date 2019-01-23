@@ -13,6 +13,10 @@ gold #ffa11e
   box-sizing: border-box;
 }
 
+header {
+  margin-bottom: 100px;
+}
+
 body {
     background-color: #40484c;
     font-family: 'Dosis', sans-serif;
@@ -37,6 +41,7 @@ color: #ffa11e;
 h3 {
 font-family: 'Ubuntu', sans-serif;
 font-size: 18px;
+line-height: 0.5;
 }
 
 h4 {
@@ -77,17 +82,21 @@ img {
   width: 100%;
 }
 
+svg {
+  width: 100%; height: auto;
+}
+
 .button {
   border: none;
   display: inline-block;
+  margin: 30px auto;
   font-family: inherit;
   font-weight: bold;
   background-color: #ffa11e;
-  color: #ffffff !important;
+  color: #40484c !important;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: solid #000000;
   transition: 0.2s opacity;
 }
 
@@ -136,15 +145,32 @@ img {
   display: inline-block;
 }
 
+.contact {
+  text-align: center;
+}
+
+.social_connect {
+  text-align: center;
+}
+
+.social_logo {
+  display: inline-block;
+  width: 50px;
+  margin: 0 auto;
+}
+
 /* responsive classes*/
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 860px) {
   .logo {
     height: 50px;
   }
   h1 {
     font-size: 24px;
     text-align: left;
+  }
+  h3 {
+    font-size: 12px;
   }
   .column-4 {
     width: 49%;
@@ -157,7 +183,8 @@ img {
     float: none;
   }
   .navigation > li {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     margin-left: auto;
   }
 }
