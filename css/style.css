@@ -126,6 +126,18 @@ button:focus,
   display: inline-block;
 }
 
+.menu-icon {
+  width: 35px;
+  height: 5px;
+  background-color: #d3d3d3;
+  margin: 6px 0;
+}
+
+.menu {
+  float: right;
+  margin: 15px 20px;
+}
+
 .navigation {
   padding: 0;
   float: right;
@@ -179,6 +191,17 @@ button:focus,
   h1 {
     font-size: 22px;
   }
+
+  .menu {
+    float: right;
+    margin: 15px 20px;
+  }
+
+  .navigation {
+    padding: 0;
+    float: right;
+    display: none;
+  }
 }
 
 
@@ -228,6 +251,13 @@ button:focus,
     margin: 40px auto;
   }
 
+  .menu {
+    float: right;
+    margin: 15px 20px;
+    display: none;
+  }
+
+
 }
 
 /* desktops*/
@@ -273,6 +303,12 @@ li {
 
 .paragraph {
   margin: 40px auto;
+  }
+
+  .menu {
+    float: right;
+    margin: 15px 20px;
+    display: none;
   }
 }
 
