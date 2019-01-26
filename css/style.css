@@ -20,7 +20,7 @@ header {
 body {
     background-color: #40484c;
     font-family: 'Dosis', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.3;
     color: #d3d3d3;
@@ -134,7 +134,13 @@ button:focus,
 .project-details {
   display:none;
   line-height: 1.3;
+  text-align:left;
   padding: 5%;
+}
+
+.paragraph {
+  padding: 25px;
+  text-align: center;
 }
 
 .center {
@@ -169,7 +175,13 @@ button:focus,
   clear: both;
   display: table;
   }
+
+  h1 {
+    font-size: 22px;
+  }
 }
+
+
 
 /* tablets*/
 @media only screen and (min-width: 768px) {
