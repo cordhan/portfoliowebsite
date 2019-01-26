@@ -139,7 +139,7 @@ button:focus,
 
 .column-4 {
   font-size: 16px;
-  width: 24%;
+  width: 24.25%;
   display: inline-block;
   margin-right: 1%;
   margin-bottom: 20px;
@@ -149,6 +149,12 @@ button:focus,
 
 .column-4:last-child {
   margin-right: 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .navigation {
@@ -201,6 +207,7 @@ button:focus,
 /* animation */
 
 .animation {
+  display: none;
   fill: #40484c;
   width: 200px;
   margin: 0 auto;
