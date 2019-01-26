@@ -116,30 +116,8 @@ button:focus,
   padding: 0 20px;
 }
 
-.column-4 {
-  font-size: 16px;
-  width: 100%;
-  display: inline-block;
-  margin-right: 0;
-  margin-bottom: 20px;
-  float: left;
-  text-align: center;
-}
-
-.column-4:nth-child(1) {
-  margin-right: 0;
-}
-
-.column-4:nth-child(2) {
-  margin-right: 0;
-}
-
-.column-4:nth-child(3) {
-  margin-right: 0;
-}
-
-.column-4:nth-child(4) {
-  margin-right: 0;
+.row {
+  margin-top: 50px;
 }
 
 .logo {
@@ -151,6 +129,12 @@ button:focus,
 .navigation {
   padding: 0;
   float: right;
+}
+
+.project-details {
+  display:none;
+  line-height: 1.3;
+  padding: 5%;
 }
 
 .center {
@@ -166,7 +150,6 @@ button:focus,
   width: 50px;
   margin: 0 auto;
 }
-
 
 
 /* mobile screens*/
@@ -189,7 +172,6 @@ button:focus,
 }
 
 /* tablets*/
-
 @media only screen and (min-width: 768px) {
 
 .col-1, .col-3 {
@@ -200,6 +182,7 @@ button:focus,
     margin-bottom: 20px;
     float: left;
     text-align: center;
+    line-height: 1.3;
   }
 
   .col-2, .col-4 {
@@ -210,6 +193,7 @@ button:focus,
       margin-bottom: 20px;
       float: left;
       text-align: center;
+      line-height: 1.3;
     }
 
   .row::after {
@@ -245,6 +229,7 @@ button:focus,
   margin-bottom: 20px;
   float: left;
   text-align: center;
+  line-height: 1.3;
   }
 
 .col-4 {
@@ -255,6 +240,7 @@ button:focus,
   margin-bottom: 20px;
   float: left;
   text-align: center;
+  line-height: 1.3;
   }
 
 .row::after {
