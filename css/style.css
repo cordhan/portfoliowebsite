@@ -21,7 +21,7 @@ body {
     background-color: #13191c;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.3;
     color: #a8a8a8;
 }
@@ -36,23 +36,19 @@ color: #ffa11e;
 }
 
 h3 {
-font-size: 12px;
-line-height: 0.5;
-}
-
-h4 {
-font-size:  14px;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.3;
 }
 
 li {
 list-style-type: none;
-font-weight: 500;
+font-weight: 400;
 }
-
 
 a {
   text-decoration: none;
-  color: #a8a8a8;
+  color: #3fa9db;
 }
 
 a:visited {
@@ -106,11 +102,24 @@ button:focus,
   padding: 0 20px
 }
 
+.work-desc {
+  font-weight: 400;
+  font-size: 18;
+  color: lightgrey;
+}
+
+.keywords {
+  font-weight: 400;
+  font-size: 18;
+}
+
 .row {
-  margin-top: 50px;
+  margin-top:70px;
+  margin-bottom: 60px;
 }
 
 .logo {
+  display: none;
   width: 120px;
   margin-top: 20px;
   display: inline-block;
@@ -165,12 +174,6 @@ button:focus,
   float: right;
 }
 
-.project-details {
-  display:none;
-  line-height: 1.3;
-  text-align:left;
-  padding: 5%;
-}
 
 .paragraph {
   padding-bottom: : 25px;
@@ -194,13 +197,12 @@ button:focus,
 /* mobile screens*/
 @media only screen and (max-width: 767px) {
 [class*="col-"] {
-  font-size: 16px;
   width: 100%;
   display: inline-block;
   margin-right: 0;
   margin-bottom: 20px;
   float: left;
-  text-align: center;
+  text-align: left;
   }
 
 .row::after {
@@ -211,6 +213,23 @@ button:focus,
 
   h1 {
     font-size: 22px;
+  }
+
+  h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  }
+
+  .work-desc {
+    font-weight: 400;
+    font-size: 12;
+    color: lightgrey;
+  }
+
+  .keywords {
+    font-weight: 400;
+    font-size: 12;
   }
 
   .menu {
@@ -230,25 +249,23 @@ button:focus,
 /* tablets*/
 @media only screen and (min-width: 768px) {
 
-.col-1, .col-3 {
-    font-size: 16px;
-    width: 49%;
+.col-1 {
+    width: 48%;
     display: inline-block;
-    margin-right: 1%;
-    margin-bottom: 20px;
+    margin-right: 4%;
+    margin-bottom: 20;
     float: left;
-    text-align: center;
+    text-align: left;
     line-height: 1.3;
   }
 
-  .col-2, .col-4 {
-      font-size: 16px;
-      width: 49%;
+  .col-2 {
+      width: 48%;
       display: inline-block;
       margin-right: 0;
-      margin-bottom: 20px;
+      margin-bottom: 20;
       float: left;
-      text-align: center;
+      text-align: left;
       line-height: 1.3;
     }
 
@@ -256,6 +273,23 @@ button:focus,
     content: "";
     clear: both;
     display: table;
+  }
+
+  h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  }
+
+  .work-desc {
+    font-weight: 400;
+    font-size: 12;
+    color: lightgrey;
+  }
+
+  .keywords {
+    font-weight: 400;
+    font-size: 12;
   }
 
   .navigation {
@@ -284,25 +318,23 @@ button:focus,
 /* desktops*/
 @media only screen and (min-width: 992px) {
 
-.col-1, .col-2, .col-3 {
-  font-size: 16px;
-  width: 24.25%;
+.col-1 {
+  width: 48%;
   display: inline-block;
-  margin-right: 1%;
+  margin-right: 4%;
   margin-bottom: 20px;
   float: left;
-  text-align: center;
+  text-align: left;
   line-height: 1.3;
   }
 
-.col-4 {
-  font-size: 16px;
-  width: 24.25%;
+.col-2 {
+  width: 48%;
   display: inline-block;
   margin-right: 0;
   margin-bottom: 20px;
   float: left;
-  text-align: center;
+  text-align: left;
   line-height: 1.3;
   }
 
@@ -310,6 +342,23 @@ button:focus,
   content: "";
   clear: both;
   display: table;
+  }
+
+  h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  }
+
+  .work-desc {
+    font-weight: 400;
+    font-size: 18;
+    color: lightgrey;
+  }
+
+  .keywords {
+    font-weight: 400;
+    font-size: 18;
   }
 
 .navigation {
