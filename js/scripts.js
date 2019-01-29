@@ -1,12 +1,10 @@
-console.log("Welcome to CordHan UX!")
-
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById('myDropdown').classList.toggle('show');
 }
 
 window.onclick = function(event) {
   if (!event.target.matches('.menu')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var dropdowns = document.getElementsByClassName('dropdown-content');
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
@@ -15,4 +13,4 @@ window.onclick = function(event) {
       }
     }
   }
-}
+};
