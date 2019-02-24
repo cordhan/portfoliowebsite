@@ -6,7 +6,7 @@ lightgrey #a8a8a8
 mid blue #3fa9db
 background grey  #13191c
 black #000000
-gold #ffa11e
+gold #f78103
 */
 * {
   box-sizing: border-box;
@@ -26,13 +26,13 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h2 {
   font-size: 22px;
-  color: #ffa11e;
-  background-color: #13191c
+  color: #f78103;
+  background-color: #13191c;
 }
 
 h3 {
@@ -44,17 +44,18 @@ h3 {
 li {
   list-style-type: none;
   font-weight: 400;
+  color: #a8a8a8;
 }
 
 a {
   text-decoration: none;
-  color: #3fa9db;
   background-color: #13191c;
+  color: #f78103;
 }
 
 a:visited {
   background-color: inherit;
-  color: #a8a8a8;
+  color: #f78103;
 }
 
 a:hover,
@@ -71,6 +72,12 @@ a:active {
 
 img {
   width: 100%;
+  border-style: solid;
+  border-width: thick;
+  border-top: none;
+  border-left: none;
+  border-bottom-color: #000000;
+  border-right-color: #000000;
 }
 
 svg {
@@ -85,7 +92,7 @@ button,
   margin: 30px auto;
   font-family: inherit;
   font-weight: bold;
-  background-color: #ffa11e;
+  background-color: #f78103;
   color: #13191c !important;
   text-decoration: none;
   padding: 10px;
