@@ -123,6 +123,11 @@ button:focus,
   color: lightgrey;
 }
 
+.images {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .keywords {
   font-weight: 400;
   font-size: 18px;
